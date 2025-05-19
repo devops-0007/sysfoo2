@@ -10,7 +10,7 @@ pipeline {
 
     stage('test') {
       parallel {
-        stage('test') {
+        stage('umit test') {
           steps {
             echo 'running unit tests...'
             sh 'mvn clean test'
