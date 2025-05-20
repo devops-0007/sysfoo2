@@ -73,7 +73,7 @@ jobs:
           name: sysfoo-artifact
           path: target/*.jar
 
-  docker bnp:
+  docker_bnp:
     runs-on: ubuntu-latest
     needs: package
     steps:
